@@ -66,9 +66,7 @@ Skills
 Papers
 ======
 
-Swanson E., Solowski K., Ash J., Kaplan D., Sanbonmatsu L., T D., Kane, TJ. (2022) Estimating the Effectiveness of Personalized Messages at Reducing Student Absences: Experimental Evidence from a Rural School Research Network. Presented at: Association for Public Policy and Analysis 2022 Fall Research Conference, Washington, DC. (Presenting Author) Available at:  <ul>{% Link %}
-    {%  https://appam.confex.com/appam/2022/mediafile/ExtendedAbstract/Paper45247/NCRERN_Personalized Messaging_APPAM_submitted.pdf %}
-  {% endfor %}</ul>
+Swanson E., Solowski K., Ash J., Kaplan D., Sanbonmatsu L., T D., Kane, TJ. (2022) Estimating the Effectiveness of Personalized Messages at Reducing Student Absences: Experimental Evidence from a Rural School Research Network. Presented at: Association for Public Policy and Analysis 2022 Fall Research Conference, Washington, DC. (Presenting Author) Available at:  https://appam.confex.com/appam/2022/mediafile/ExtendedAbstract/Paper45247/NCRERN_Personalized Messaging_APPAM_submitted.pdf
  
 Johnson B., Bolyard J.A., Kaplan D., Hersh D., Sanbonmatsu L., Staiger D., Kane, TJ. (In Submission). Can Digital Attendance Reminders Reduce Absences? Evidence from Three Randomized Field Trials. 
 
