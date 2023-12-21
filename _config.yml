@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Academic Website"
+title                    : "Dean Kaplan"
 title_separator          : "-"
 name                     : &name "Dean Kaplan"
 description              : &description "personal description"
