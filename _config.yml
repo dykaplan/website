@@ -84,9 +84,9 @@ author:
   avatar           : "headshot.jpeg"
   bio              : "Research Analyst"
   location         : "Cambridge, MA"
-  employer         : "Center for Education Policy Research at Harvard University"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  employer         : "CEPR @ Harvard University"
+  pubmed           :  # example:  "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    :  # example:  "http://yourfullgooglescholarurl.com"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "www.linkedin.com/in/dean-kaplan-b4a08739"
+  linkedin         : "dean-kaplan-b4a08739"
   orcid            : "http://orcid.org/0009-0009-3512-6256"
   pinterest        :
   soundcloud       :
