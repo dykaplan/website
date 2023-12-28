@@ -11,7 +11,7 @@ redirect_from:
 
 <object data="../files/Dean Kaplan PhD CV.pdf" type="application/pdf" width="800px" height="1150px">
     <embed src="../files/Dean Kaplan PhD CV.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="files/Dean Kaplan PhD CV.pdf">Download PDF</a>.</p>
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="../files/Dean Kaplan PhD CV.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 
