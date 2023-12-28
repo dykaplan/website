@@ -2,7 +2,7 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---
@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 <object data="../files/Dean Kaplan PhD CV.pdf" type="application/pdf" width="800px" height="1150px">
-    <embed src="files/Dean Kaplan PhD CV.pdf">
+    <embed src="../files/Dean Kaplan PhD CV.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="files/Dean Kaplan PhD CV.pdf">Download PDF</a>.</p>
     </embed>
 </object>
