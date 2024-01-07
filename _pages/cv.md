@@ -2,20 +2,135 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-author_profile: false
+author_profile: true
 redirect_from:
   - /resume
 ---
 
 {% include base_path %}
 
+<object data="../files/Dean Kaplan PhD CV.pdf" type="application/pdf" width="800px" height="1150px">
+
 Education
 ======
 * B.S. in Education, University of Maryland, 2017
-* Ed.M. in Specalized Studies, Harvard Graudate School of Education, 2019
+* Ed.M. in Specialized Studies, Harvard Graduate School of Education, 2019
 
 Work experience
 ======
+
+<table style="border: none; width: 100%; table-layout: fixed;">
+  <tr>
+    <td style="text-align: left; border: none;">Research Analyst II</td>
+    <td style="text-align: right; border: none;">Sep 2019 to Present</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">Center for Education Policy Research, Harvard University</td>
+    <td style="text-align: right; border: none;">Cambridge, MA</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">* Establish data pipelines with partners, run power analyses and randomize students for rapid-cycle RCT interventions</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">* Analyze and estimate impact of field trials utilizing both Linear and Bayesian models</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">* Pre-register trials prior to trials and author academic papers on analytic results</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">* Present findings at academic conferences and to school leaders throughout the year</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">* Train junior analysts in coding procedure and model specification</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">Institutional Research Intern</td>
+    <td style="text-align: right; border: none;">Jun 2019 to Aug 2019</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">Office of Student Affairs, Harvard Graduate School of Education</td>
+    <td style="text-align: right; border: none;">Cambridge, MA</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">* Collect and aggregate data across departments including Academic Affairs, Admissions, Alumni Relations, and HR</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">* Report on quantitative analysis of student, staff and faculty data, conduct qualitative interviews and meet with stakeholders across campus to build and strengthen institutional memory</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">* Produce figures and tables for use in Office of Student Affairs materials</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">Empathy Strategies Intern</td>
+    <td style="text-align: right; border: none;">Sep 2018 to Jun 2019</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">Making Caring Common, Harvard Graduate School of Education</td>
+    <td style="text-align: right; border: none;">Cambridge, MA</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">* Clean, merge, analyze and report quantitative data from RCT outcomes over 2,000 student surveys</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">* Design low-load empathy strategies for over 150 middle and high school teachers and counselors across the country</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">* Develop pre/post-test surveys and accompanying codebooks about implementation and data collection</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">Research Assistant for Dr. Erica Zippert</td>
+    <td style="text-align: right; border: none;">Jun 2015 to May 2016</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">Department of Human Development and Quantitative Methodology, University of Maryland</td>
+    <td style="text-align: right; border: none;">Baltimore, MD</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">* Ran study which included math assessment and facilitation of filmed parent-child interaction</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">* Coded qualitative data from in-person filmed interactions (over 50 hours of video footage)</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">* Accepted to present poster of findings at the National Research & Development Center on Cognition & Mathematics Instruction</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">Research Assistant for Dr. Emily Rosenzweig</td>
+    <td style="text-align: right; border: none;">Aug to Dec 2015</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">Department of Human Development and Quantitative Methodology, University of Maryland</td>
+    <td style="text-align: right; border: none;">College Park, MD</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">* Coded qualitative responses from over 100 essays written by high school students</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">* Analyzed and provided recommendations for changes in coding schemes</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">* Contributed to intercoder reliability and item collection criteria for analysis</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">Research Assistant for Dr. Katie Muenks</td>
+    <td style="text-align: right; border: none;">Jun to Jul 2015</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">Department of Human Development and Quantitative Methodology, University of Maryland</td>
+    <td style="text-align: right; border: none;">College Park, MD</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">* Ran lab experiment by checking-in participants, acquiring informed consent, and paying participants</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">* CITI Social and Behavioral Research Training completed</td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: none;">* Answered study participants’ questions about research</td>
+  </tr>
+</table>
+
+
 Research Analyst II	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sep 2019 to Present  <br />     
 Center for Education Policy Research, Harvard University &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	Cambridge, MA
 * Establish data pipelines with partners, run power analyses and randomize students for rapid-cycle RCT interventions
