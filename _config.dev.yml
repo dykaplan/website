@@ -11,9 +11,8 @@ title                    : "Dean Kaplan's Academic Website"
 title_separator          : "-"
 name                     : &name "Dean Kaplan"
 description              : &description "personal description"
-url                      : "https://dykaplan.github.io/frieder.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "dykaplan/frieder.github.io"
+repository               : "dykaplan/website"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
