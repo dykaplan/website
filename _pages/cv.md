@@ -229,7 +229,7 @@ Teaching
 ======
 <ul> 
  <li>
-Non-Fiction Narritive Writing, Professional Writing Program, English Department, University of Maryland      Fall 2016
+Non-Fiction Narrative Writing, Professional Writing Program, English Department, University of Maryland      Fall 2016
 Teaching Assistant
 </li>
  <li>
