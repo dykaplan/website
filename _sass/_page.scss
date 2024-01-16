@@ -2,6 +2,10 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
+body {
+  background-color: #faf5e6;// #d9f2ff
+}
+
 #main {
   @include container;
   @include clearfix;

@@ -4,7 +4,6 @@
 
 .masthead {
   position: relative;
-  border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
@@ -12,6 +11,7 @@
   z-index: 20;
 
   &__inner-wrap {
+    
     @include container;
     @include clearfix;
     padding: 1em 1em 1em;
@@ -32,7 +32,6 @@
 }
 
 .masthead__menu {
-
   ul {
     margin: 0;
     padding: 0;
@@ -42,12 +41,15 @@
 }
 
 .masthead__menu-item {
+  background-color: #faf5e6;// #d9f2ff
   display: block;
   list-style-type: none;
   white-space: nowrap;
-
+  padding:0px;
+  margin:0px;
+  overflow-x:hidden;
   &--lg {
-    padding-right: 2em;
+    padding-right: 210%;
     font-weight: 700;
   }
 }
