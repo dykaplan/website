@@ -197,11 +197,11 @@ Papers
 ======
 <ul> 
     <li>
-Swanson E., Solowski K., Ash J., </b>Kaplan D.</b>, Sanbonmatsu L., T D., Kane, TJ. (2022) Estimating the Effectiveness of Personalized Messages at Reducing Student Absences: Experimental Evidence from a Rural School Research Network. Presented at: Association for Public Policy and Analysis 2022 Fall Research Conference, Washington, DC. (Presenting Author) Available at: <a href= "https://appam.confex.com/appam/2022/meetingapp.cgi/Paper/45247" target="_blank">Link</a>
+Swanson E., Solowski K., Ash J., <b>Kaplan D.</b>, Sanbonmatsu L., T D., Kane, TJ. (2022) Estimating the Effectiveness of Personalized Messages at Reducing Student Absences: Experimental Evidence from a Rural School Research Network. Presented at: Association for Public Policy and Analysis 2022 Fall Research Conference, Washington, DC. (Presenting Author) Available at: <a href= "https://appam.confex.com/appam/2022/meetingapp.cgi/Paper/45247" target="_blank">Link</a>
 
 </li>
  <li>
-Johnson B., Bolyard J.A., </b>Kaplan D.</b>, Hersh D., Sanbonmatsu L., Staiger D., Kane, TJ. (In Submission). Can Digital Attendance Reminders Reduce Absences? Evidence from Three Randomized Field Trials. 
+Johnson B., Bolyard J.A., <b>Kaplan D.</b>, Hersh D., Sanbonmatsu L., Staiger D., Kane, TJ. (In Submission). Can Digital Attendance Reminders Reduce Absences? Evidence from Three Randomized Field Trials. 
 </li>
 </ul>
 
@@ -210,7 +210,7 @@ Posters
 ======
 <ul> 
     <li>
-Zippert E., Schneider R., </b>Kaplan D.</b>, Ramani GB. (2016). Exploring the role of preschoolers’ interest and ability in number exploration during card game play with parents. Presented Poster at: Bringing Cognitive Science Research to the Classroom; Arlington, VA.
+Zippert E., Schneider R., <b>Kaplan D.</b>, Ramani GB. (2016). Exploring the role of preschoolers’ interest and ability in number exploration during card game play with parents. Presented Poster at: Bringing Cognitive Science Research to the Classroom; Arlington, VA.
 </li>
 </ul>
   
@@ -218,10 +218,10 @@ Talks
 ======
 <ul> 
     <li>
-Swanson E., Solowski K., Ash J., </b>Kaplan D.</b>, Sanbonmatsu L., Staiger D., Kane, TJ. (2023) Estimating the Effectiveness of Personalized Messages at Reducing Student Absences: Experimental Evidence from a Rural School Research Network. Presented at: Association for Education Finance Policy 48th Annual Conference, Denver, CO. (Presenting Author)
+Swanson E., Solowski K., Ash J., <b>Kaplan D.</b>, Sanbonmatsu L., Staiger D., Kane, TJ. (2023) Estimating the Effectiveness of Personalized Messages at Reducing Student Absences: Experimental Evidence from a Rural School Research Network. Presented at: Association for Education Finance Policy 48th Annual Conference, Denver, CO. (Presenting Author)
 </li>
     <li>
-</b>Kaplan D.</b>, Kieninger K., Ash J., Sanbonmatsu L., Staiger D., Kane, TJ. (2021) Every Day Counts Everywhere: Examining Attendance Trends Across Urban, Suburban, Town, and Rural Districts. Presented: Association for Education Finance and Policy Annual Conference 46th Conference (Presenter)
+<b>Kaplan D.</b>, Kieninger K., Ash J., Sanbonmatsu L., Staiger D., Kane, TJ. (2021) Every Day Counts Everywhere: Examining Attendance Trends Across Urban, Suburban, Town, and Rural Districts. Presented: Association for Education Finance and Policy Annual Conference 46th Conference (Presenter)
  </li>
 </ul> 
    
