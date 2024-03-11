@@ -11,12 +11,3 @@ location: "Cambridge, MA"
 * Planned and implemented lesson plans for graduate students and staff taking course
 * Reviewed message board posts and added comments
 * Provide support to student with their writing and assist in organizing course logistics 
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======

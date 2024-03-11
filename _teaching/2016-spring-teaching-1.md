@@ -11,12 +11,3 @@ location: "College Park, MD"
 * Planned and implemented writing lessons for university juniors and seniors 
 * Edited and graded papers throughout the semester 
 * Conferred with students during office hours to provide one-on-one editing 
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
