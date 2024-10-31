@@ -14,9 +14,12 @@ Full CV Available Here:
 
 Education
 ======
-<b>B.S. in Education, University of Maryland, 2017 </b>
+
+<b>Ph.D in Economics, Boston College (In Progress) </b>
 
 <b>Ed.M. in Specialized Studies, Harvard Graduate School of Education </b>
+
+<b>B.S. in Education, University of Maryland, 2017 </b>
 
 Work experience
 ======
@@ -228,6 +231,10 @@ Presenting Author, With: Kieninger K., Ash J., Sanbonmatsu L., Staiger D., Kane,
 Teaching
 ======
 <ul> 
+ <li>
+Introductory and Intermediate Statistics for Educational Research: Applied Linear Regression, Harvard Graduate School of Education     Fall 2024
+Teaching Assistant
+</li>
  <li>
 Non-Fiction Narrative Writing, Professional Writing Program, English Department, University of Maryland      Fall 2016
 Teaching Assistant
