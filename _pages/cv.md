@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 Full CV Available Here:
-<a href= "https://drive.google.com/file/d/1Ns9GZxBgykh3uA4MeIX-F5IHKtbilo6c/view?usp=share_link" target="_blank">Dean Kaplan CV</a> 
+<a href= "https://drive.google.com/file/d/1j-FDBipzuNPGGxxTFywek8hvU_pWVPM9/view?usp=share_link" target="_blank">Dean Kaplan CV</a> 
 
 {% include base_path %}
 
