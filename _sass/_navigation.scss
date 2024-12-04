@@ -175,12 +175,7 @@
 .greedy-nav {
   position: relative;
   min-width: 250px;
-  background: $background-color; /* Keep your color variable */
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1em; /* Add uniform padding */
+  background: $background-color;
 
   a {
     display: block;
@@ -194,19 +189,7 @@
     }
   }
 
-  .visible-links {
-    display: flex; /* Change to flex for horizontal layout */
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
-    li {
-      margin: 0 5px; /* Adjust for better spacing */
-    }
-  }
-
   button {
-    /* No changes to button styling */
     position: absolute;
     height: 100%;
     right: 0;
@@ -216,6 +199,112 @@
     background-color: $primary-color;
     color: #fff;
     cursor: pointer;
+  }
+
+  .visible-links {
+    display: table;
+
+    li {
+      display: table-cell;
+      vertical-align: middle;
+
+      &:first-child {
+        font-weight: bold;
+
+        a {
+          margin-left: 0;
+        }
+      }
+
+      &:last-child {
+        a {
+          margin-right: 0;
+        }
+      }
+    }
+
+    a {
+      position: relative;
+
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 4px;
+        background: mix(#fff, $primary-color, 50%);
+        width: 100%;
+        -webkit-transition: $global-transition;
+        transition: $global-transition;
+        -webkit-transform: scaleX(0);
+            -ms-transform: scaleX(0);
+                transform: scaleX(0); /* hide*/
+      }
+
+      &:hover:before {
+        -webkit-transform: scaleX(1);
+            -ms-transform: scaleX(1);
+                transform: scaleX(1); /* reveal*/
+      }
+    }
+  }
+
+  .hidden-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 15px;
+    padding: 5px;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(#000, 0.25);
+
+    a {
+      margin: 0;
+      padding: 10px 20px;
+      font-size: $type-size-5;
+
+      &:hover {
+        color: $masthead-link-color-hover;
+        background: mix(#fff, $primary-color, 75%);
+      }
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: -11px;
+      right: 10px;
+      width: 0;
+      border-style: solid;
+      border-width: 0 10px 10px;
+      border-color: $border-color transparent;
+      display: block;
+      z-index: 0;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: -10px;
+      right: 10px;
+      width: 0;
+      border-style: solid;
+      border-width: 0 10px 10px;
+      border-color: #fff transparent;
+      display: block;
+      z-index: 1;
+    }
+
+    li {
+      display: block;
+      border-bottom: 1px solid $border-color;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
   }
 }
 
