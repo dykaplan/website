@@ -193,12 +193,15 @@
     position: absolute;
     height: 100%;
     right: 0;
+    top: 0; /* Add this to align vertically */
     padding: 0 0.5rem;
     border: 0;
-    outline: none;
     background-color: $primary-color;
     color: #fff;
     cursor: pointer;
+    display: flex; /* Align icon within button */
+    align-items: center;
+    justify-content: center;
   }
 
   .visible-links {
