@@ -19,7 +19,7 @@ Education
 
 <b>Ed.M. in Specialized Studies, Harvard Graduate School of Education </b>
 
-<b>B.S. in Education, University of Maryland, 2017 </b>
+<b>B.S. in Education, University of Maryland </b>
 
 Work experience
 ======
@@ -29,7 +29,7 @@ Work experience
     <td style="text-align: left; border: none; padding: .5px;border-spacing
 :.5px;"><b> Research Analyst II</b></td>
     <td style="text-align: right; border: none; padding: .5px;border-spacing
-:.5px;">Sep 2019 to Present</td>
+:.5px;">Sep 2019 to Jul 2024</td>
 
   <tr>
     <td style="text-align: left;  border: none; padding: .5px;border-spacing
