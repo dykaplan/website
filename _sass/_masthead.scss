@@ -40,16 +40,20 @@
   }
 }
 
+
 .masthead__menu-item {
-  background-color: #faf5e6;// #d9f2ff
-  display: block;
+  background-color: #faf5e6; /* Consider testing with the commented color if necessary */
+  display: inline-block; /* Allows items to align horizontally in a flex container */
   list-style-type: none;
-  white-space: nowrap;
-  padding:0px;
-  margin:0px;
-  overflow-x:hidden;
-  &--lg {
-    /*padding-right: 210%;*/
-    font-weight: 700;
-  }
+  white-space: nowrap; /* Prevents text wrapping */
+  padding: 0; /* Streamline padding */
+  margin: 0; /* Streamline margin */
+  overflow-x: hidden; /* Ensure no horizontal scroll */
 }
+
+.masthead__menu-item--lg {
+  font-weight: 700;
+    /*padding-right: 210%;*/
+  /* Adjust padding or add styles here if needed */
+}
+
