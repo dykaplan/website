@@ -1,16 +1,9 @@
-# main links links
-main:
-  - title: "Publications"
-    url: /publications/
+# Top navigation links
+- title: "Dean Kaplan"
+  url:   "/"              # home page
 
-#  - title: "Talks"
-#    url: /talks/    
+- title: "Publications"
+  url:   "/publications/" # make sure the page/collection exists
 
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "CV"
-    url: /cv/
-    
-#  - title: "Guide"
-#    url: /markdown/
+- title: "Teaching"
+  url:   "/teaching/"
