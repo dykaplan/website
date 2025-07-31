@@ -27,6 +27,10 @@
   display: flex         !important;
   flex-wrap: nowrap;
   gap: 1.5rem;
+
+  transform: none !important;   /* removes scaleX(0)  */
+  opacity: 1 !important;        /* removes opacity:0  */
 }
 
 .greedy-nav__link { color:#111 !important; } 
+
