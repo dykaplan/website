@@ -6,6 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
+remote_theme: mmistakes/minimal-mistakes@latest
+plugins:      [jekyll-include-cache]
 locale: "en-US"
 title: "Dean Kaplan"
 title_separator: "-"
