@@ -2,6 +2,11 @@
    MASTHEAD
    ========================================================================== */
 
+/* NOTE:  This file assumes the usual Minimal-Mistakes variables, mixins,
+          breakpoints, etc. are already defined in _variables.scss and
+          _mixins.scss — nothing new is introduced here.
+========================================================================== */
+
 .masthead {
   position: relative;
   -webkit-animation: intro 0.3s both;
@@ -10,53 +15,84 @@
           animation-delay: 0.15s;
   z-index: 20;
 
+  /* ---------------------------------------------------------------------
+     INNER WRAP  (logo + navigation)
+  --------------------------------------------------------------------- */
   &__inner-wrap {
     @include container;
     @include clearfix;
+
     padding: 1em;
     font-family: $sans-serif-narrow;
+
     display: flex;
-    justify-content: space-between; /* Adjust as needed */
+    justify-content: space-between;
     align-items: center;
-  
+
+    /* allow wide sites but keep the same max width rule as upstream */
     @include breakpoint($x-large) {
       max-width: $x-large;
     }
 
-
+    /* make sure the nav itself is above other elements */
     nav {
       z-index: 10;
     }
 
-    a {
-      text-decoration: none;
-    }
+    a { text-decoration: none; }
   }
 }
 
+/* -----------------------------------------------------------------------
+   NAVIGATION
+----------------------------------------------------------------------- */
+
+/* parent <nav class="masthead__menu"> ------------------------------ */
 .masthead__menu {
-  ul {
+  /* Let the nav take all remaining room between logo & whatever follows */
+  flex: 1 1 auto;
+  /* Edge/Safari quirk: allow flex item to shrink below content width */
+  min-width: 0;
+
+  ul {                   /* <ul> that holds the links ----------------- */
     margin: 0;
     padding: 0;
-    clear: both;
-    list-style-type: none;
+    list-style: none;
+
+    /* NEW: a simple horizontal flex row instead of inline-block */
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2rem;           /* adjust spacing between menu items */
   }
 }
 
-
+/* individual <li> ----------------------------------------------- */
 .masthead__menu-item {
-  background-color: #faf5e6; /* Consider testing with the commented color if necessary */
-  display: inline-block; /* Allows items to align horizontally in a flex container */
-  list-style-type: none;
-  white-space: nowrap; /* Prevents text wrapping */
-  padding: 0; /* Streamline padding */
-  margin: 0; /* Streamline margin */
-  overflow-x: hidden; /* Ensure no horizontal scroll */
+  /* colour was only for debugging; remove it for production */
+  background: transparent;
+
+  /* no longer need inline-block once <ul> is flex */
+  white-space: nowrap;     /* keep a label on one line */
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 
+/* emphasised “large” items (last child in default theme) ---------- */
 .masthead__menu-item--lg {
   font-weight: 700;
-    /*padding-right: 210%;*/
-  /* Adjust padding or add styles here if needed */
 }
 
+/* -------------------------------------------------------------------
+   Greedy-nav hamburger toggle: keep it on phones, hide on desktop
+   (set the breakpoint to whatever lines up with your design)
+------------------------------------------------------------------- */
+@media (min-width: 992px) {
+  .greedy-nav__toggle {   /* upstream class from greedy-nav.js */
+    display: none !important;
+  }
+}
+
+/* ==========================================================================
+   END  _masthead.scss
+   ========================================================================== */
