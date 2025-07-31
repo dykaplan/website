@@ -1,0 +1,23 @@
+/* =========================================================
+   NAV OVERRIDES — keep greedy-nav off on desktop
+   ========================================================= */
+
+/* Let the nav bar stretch between logo and other items */
+.masthead__inner-wrap > nav {
+  flex: 1 1 auto;
+  min-width: 0;          /* prevents Safari/Edge overflow */
+}
+
+/* Make the list itself a horizontal flex row */
+.masthead__menu > ul {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1.5rem;           /* spacing between menu items — tweak */
+}
+
+/* Hide hamburger icon once we have room for real menu */
+@media (min-width: 992px) {            /* pick your own breakpoint */
+  .greedy-nav__toggle {
+    display: none !important;
+  }
+}
