@@ -1,2 +1,4 @@
 ---
 BUNDLE_WITHOUT: "production"
+BUNDLE_PATH: "/Users/dkap/.bundle_vendor"
+BUNDLE_BUILD__NOKOGIRI: "--use-system-libraries"
