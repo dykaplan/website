@@ -1,9 +1,9 @@
 # Top navigation links
 - title: "Dean Kaplan"
-  url:   "/"              # home page
+  Link:   "/"              # home page
 
 - title: "Publications"
-  url:   "/publications/" # make sure the page/collection exists
+  Link:   "/publications/" # make sure the page/collection exists
 
 - title: "Teaching"
-  url:   "/teaching/"
+  link:   "/teaching/"
