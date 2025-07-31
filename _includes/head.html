@@ -8,15 +8,31 @@
   <meta name="CocoaVersion" content="2575.2">
   <style type="text/css">
     p.p1 {margin: 0.0px 0.0px 10.7px 0.0px; font: 16.0px Helvetica; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 10.7px 0.0px; font: 16.0px Helvetica; -webkit-text-stroke: #000000; min-height: 19.0px}
     span.s1 {font-kerning: none}
-    span.Apple-tab-span {white-space:pre}
   </style>
 </head>
 <body>
 <p class="p1"><span class="s1">{% include base_path %}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;meta charset="utf-8"&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">{% include seo.html %}</span></p>
-<p class="p1"><span class="s1"> </span></p>
-<p class="p1"><span class="s1">&lt;link rel="stylesheet"<span class="Apple-converted-space">       </span></span></p>
-<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>href="{{ '/assets/css/main.scss’ | relative_url }}"&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed"&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;!-- http://t.co/dKP3o1e --&gt;</span></p>
+<p class="p1"><span class="s1">&lt;meta name="HandheldFriendly" content="True"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;meta name="MobileOptimized" content="320"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';</span></p>
+<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;!-- For all browsers --&gt;</span></p>
+<p class="p1"><span class="s1">&lt;link rel="stylesheet" href="{{ base_path }}/assets/css/main.css"&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;meta http-equiv="cleartype" content="on"&gt;</span></p>
 </body>
 </html>
