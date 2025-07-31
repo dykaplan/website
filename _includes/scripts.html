@@ -8,10 +8,35 @@
   <meta name="CocoaVersion" content="2575.2">
   <style type="text/css">
     p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.6px Monaco; color: #ffffff; -webkit-text-stroke: #ffffff; background-color: #0c0c0c}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.6px Monaco; color: #ffffff; -webkit-text-stroke: #ffffff; background-color: #0c0c0c; min-height: 18.0px}
     span.s1 {font-kerning: none}
   </style>
 </head>
 <body>
-<p class="p1"><span class="s1">{% comment %}<span class="Apple-converted-space">  </span>Intentionally blank: prevents main.min.js from loading<span class="Apple-converted-space">  </span>{% endcomment %}</span></p>
+<p class="p1"><span class="s1">{% comment %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>◼<span class="Apple-converted-space">  </span>Custom footer script</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>◼<span class="Apple-converted-space">  </span>— runs AFTER the theme’s main.min.js</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>◼<span class="Apple-converted-space">  </span>— moves the links back into &lt;ul class="visible-links"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>◼<span class="Apple-converted-space">  </span>— removes the hamburger button</span></p>
+<p class="p1"><span class="s1">{% endcomment %}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;script&gt;</span></p>
+<p class="p1"><span class="s1">document.addEventListener('DOMContentLoaded', function () {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>var nav <span class="Apple-converted-space">    </span>= document.querySelector('.greedy-nav');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>if (!nav)<span class="Apple-converted-space">  </span>{ return; }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>/* 1 — move every &lt;li&gt; out of .hidden-links into .visible-links */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>var visible = nav.querySelector('.visible-links');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>var hidden<span class="Apple-converted-space">  </span>= nav.querySelector('.hidden-links');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>if (visible &amp;&amp; hidden) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>while (hidden.firstChild) { visible.appendChild(hidden.firstChild); }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>hidden.remove(); <span class="Apple-converted-space">                                </span>// throw the list away</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>/* 2 — remove the toggle button entirely */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>var toggle = nav.querySelector('.greedy-nav__toggle');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>if (toggle) { toggle.remove(); }</span></p>
+<p class="p1"><span class="s1">});</span></p>
+<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
 </body>
 </html>
