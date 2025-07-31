@@ -21,22 +21,36 @@
 <p class="p1"><span class="s1">{% endcomment %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">&lt;script&gt;</span></p>
-<p class="p1"><span class="s1">document.addEventListener('DOMContentLoaded', function () {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>var nav <span class="Apple-converted-space">    </span>= document.querySelector('.greedy-nav');</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>if (!nav)<span class="Apple-converted-space">  </span>{ return; }</span></p>
+<p class="p1"><span class="s1">(function () {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>function restoreMenu () {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>var nav = document.querySelector('.greedy-nav');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>if (!nav) { return; }</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>/* 1 — move every &lt;li&gt; out of .hidden-links into .visible-links */</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>var visible = nav.querySelector('.visible-links');</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>var hidden<span class="Apple-converted-space">  </span>= nav.querySelector('.hidden-links');</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>if (visible &amp;&amp; hidden) {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>while (hidden.firstChild) { visible.appendChild(hidden.firstChild); }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>hidden.remove(); <span class="Apple-converted-space">                                </span>// throw the list away</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>/* 1 ─ move every &lt;li&gt; back to the visible list */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>var vis = nav.querySelector('.visible-links');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>var hid = nav.querySelector('.hidden-links');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>if (vis &amp;&amp; hid) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>while (hid.firstChild) { vis.appendChild(hid.firstChild); }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>/* 2 ─ kill the inline styles Greedy-Nav sets */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>if (hid) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>hid.style.display<span class="Apple-converted-space">    </span>= 'flex';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>hid.style.opacity<span class="Apple-converted-space">    </span>= '1';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>hid.style.transform<span class="Apple-converted-space">  </span>= 'none';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>/* 3 ─ hide the hamburger button */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>var toggle = nav.querySelector('.greedy-nav__toggle');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>if (toggle) { toggle.style.display = 'none'; }</span></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>/* 2 — remove the toggle button entirely */</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>var toggle = nav.querySelector('.greedy-nav__toggle');</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>if (toggle) { toggle.remove(); }</span></p>
-<p class="p1"><span class="s1">});</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>/* run once after everything else has executed */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>window.addEventListener('load', restoreMenu, false);</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>/* run again whenever the window is resized */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>window.addEventListener('resize', restoreMenu, false);</span></p>
+<p class="p1"><span class="s1">})();</span></p>
 <p class="p1"><span class="s1">&lt;/script&gt;</span></p>
 </body>
 </html>
