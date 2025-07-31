@@ -1,36 +1,12 @@
-/* =========================================================
-   NAV OVERRIDES — keep greedy-nav off on desktop
-   ========================================================= */
+/* ---- kill the hamburger completely ----------------------------- */
+.greedy-nav__toggle { display:none !important; }
 
-/* Let the nav bar stretch between logo and other items */
-.masthead__inner-wrap > nav {
-  flex: 1 1 auto;
-  min-width: 0;          /* prevents Safari/Edge overflow */
+/* ---- keep both lists inline ------------------------------------ */
+.greedy-nav ul{
+  display:flex       !important;
+  flex-wrap:nowrap;
+  gap:1.5rem;
 }
 
-/* Make the list itself a horizontal flex row */
-.masthead__menu > ul {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 1.5rem;           /* spacing between menu items — tweak */
-}
-
-/* Hide hamburger icon once we have room for real menu */
-@media (min-width: 992px) {            /* pick your own breakpoint */
-  .greedy-nav__toggle {
-    display: none !important;
-  }
-}
-
-/* always show the links that the JS put in .hidden-links */
-.greedy-nav .hidden-links {            /* keeps your flex row */
-  display: flex         !important;
-  flex-wrap: nowrap;
-  gap: 1.5rem;
-
-  transform: none !important;   /* removes scaleX(0)  */
-  opacity: 1 !important;        /* removes opacity:0  */
-}
-
-.greedy-nav__link { color:#111 !important; } 
-
+/* ---- readable link colour -------------------------------------- */
+.greedy-nav__link{ color:#111 !important; }
