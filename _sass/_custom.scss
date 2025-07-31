@@ -1,14 +1,22 @@
-.greedy-nav__toggle { display:none !important; }
+nav.greedy-nav ul.hidden-links{
+  /* keep the list in normal flow */
+  position:static !important;
 
-/* Keep the “hidden” list visible, defeat all inline JS styles */
-.greedy-nav .hidden-links{
-  display:flex !important;        /* override display:none       */
+  /* show it as a horizontal row */
+  display:flex    !important;
   flex-wrap:nowrap;
-  gap:1.5rem;
+  gap:1.6rem;
 
-  opacity:1    !important;        /* override opacity:0          */
-  transform:none !important;      /* override transform:scaleX(0)*/
+  /* defeat the JS fade/scale tricks */
+  opacity:1       !important;
+  transform:none  !important;
+
+  /* make sure it can grow */
+  width:auto      !important;
 }
 
-/* Make sure links are readable on the light masthead background */
-.greedy-nav__link{ color:#111 !important; }
+/* optional: hide the hamburger icon */
+.greedy-nav__toggle{display:none!important;}
+
+/* optional: darken link text so you can see it */
+.greedy-nav__link{color:#111!important;}
