@@ -21,3 +21,10 @@
     display: none !important;
   }
 }
+
+/* always show the links that the JS put in .hidden-links */
+.greedy-nav .hidden-links {            /* keeps your flex row */
+  display: flex         !important;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+}
