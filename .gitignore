@@ -1,2 +1,18 @@
 _site/
 
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# R
+.Rhistory
+.RData
+
+# Vendor
+vendor/
+
+# Duplicate HTML files (use .md instead)
+_teaching/*.html
+_publications/*.html
+
