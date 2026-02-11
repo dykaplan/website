@@ -1,39 +1,42 @@
-/* Navigation bar styling */
+/* Navigation bar styling - subtle and professional */
 .masthead {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: #f5f5f5;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
 .greedy-nav a,
 .greedy-nav button,
 .site-title {
-  color: #fff !important;
+  color: #333 !important;
 }
 
 .greedy-nav a:hover {
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: #0066cc !important;
 }
 
 /* Hamburger menu button */
 .greedy-nav__toggle {
-  color: #fff !important;
-  border-color: #fff !important;
+  color: #333 !important;
+  border-color: #ccc !important;
 }
 
 .greedy-nav__toggle:hover {
-  background: rgba(255, 255, 255, 0.1) !important;
+  background: rgba(0, 0, 0, 0.05) !important;
 }
 
 /* Hidden links dropdown */
 nav.greedy-nav ul.hidden-links {
-  background: #667eea;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 nav.greedy-nav ul.hidden-links a {
-  color: #fff !important;
+  color: #333 !important;
 }
 
 nav.greedy-nav ul.hidden-links a:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.05);
+  color: #0066cc !important;
 }
