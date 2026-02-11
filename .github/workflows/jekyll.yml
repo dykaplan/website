@@ -31,6 +31,8 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    env:                        # ← add
+      BUNDLE_FORCE_RUBY_PLATFORM: "false"   # ← add
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -39,6 +41,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
+          bundler: 2.4.22
           bundler-cache: true
           cache-version: 0
   
