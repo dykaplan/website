@@ -1,56 +1,15 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.2">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.6px Monaco; color: #ffffff; -webkit-text-stroke: #ffffff; background-color: #0c0c0c}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.6px Monaco; color: #ffffff; -webkit-text-stroke: #ffffff; background-color: #0c0c0c; min-height: 18.0px}
-    span.s1 {font-kerning: none}
-  </style>
-</head>
-<body>
-<p class="p1"><span class="s1">{% comment %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>◼<span class="Apple-converted-space">  </span>Custom footer script</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>◼<span class="Apple-converted-space">  </span>— runs AFTER the theme’s main.min.js</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>◼<span class="Apple-converted-space">  </span>— moves the links back into &lt;ul class="visible-links"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>◼<span class="Apple-converted-space">  </span>— removes the hamburger button</span></p>
-<p class="p1"><span class="s1">{% endcomment %}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;script&gt;</span></p>
-<p class="p1"><span class="s1">(function () {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>function restoreMenu () {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>var nav = document.querySelector('.greedy-nav');</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>if (!nav) { return; }</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>/* 1 ─ move every &lt;li&gt; back to the visible list */</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>var vis = nav.querySelector('.visible-links');</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>var hid = nav.querySelector('.hidden-links');</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>if (vis &amp;&amp; hid) {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>while (hid.firstChild) { vis.appendChild(hid.firstChild); }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>/* 2 ─ kill the inline styles Greedy-Nav sets */</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>if (hid) {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>hid.style.display<span class="Apple-converted-space">    </span>= 'flex';</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>hid.style.opacity<span class="Apple-converted-space">    </span>= '1';</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>hid.style.transform<span class="Apple-converted-space">  </span>= 'none';</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>/* 3 ─ hide the hamburger button */</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>var toggle = nav.querySelector('.greedy-nav__toggle');</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>if (toggle) { toggle.style.display = 'none'; }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>/* run once after everything else has executed */</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>window.addEventListener('load', restoreMenu, false);</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>/* run again whenever the window is resized */</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>window.addEventListener('resize', restoreMenu, false);</span></p>
-<p class="p1"><span class="s1">})();</span></p>
-<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
-</body>
-</html>
+{% include base_path %}
+
+<script src="{{ base_path }}/assets/js/vendor/jquery/jquery-1.12.4.min.js"></script>
+<script src="{{ base_path }}/assets/js/plugins/jquery.fitvids.js"></script>
+<script src="{{ base_path }}/assets/js/plugins/jquery.greedy-navigation.js"></script>
+<script src="{{ base_path }}/assets/js/plugins/jquery.magnific-popup.js"></script>
+<script src="{{ base_path }}/assets/js/plugins/jquery.smooth-scroll.min.js"></script>
+<script src="{{ base_path }}/assets/js/plugins/stickyfill.min.js"></script>
+<script src="{{ base_path }}/assets/js/_main.js"></script>
+
+{% if site.analytics.provider and page.analytics != false %}
+{% include /analytics.html %}
+{% endif %}
+
+{% include /comments-providers/scripts.html %}
