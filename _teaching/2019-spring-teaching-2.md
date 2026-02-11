@@ -8,6 +8,6 @@ date: 2019-01-01
 location: "Cambridge, MA"
 ---
 
-* Planned and implemented lesson plans for graduate students and university staff taking course
-* Reviewed message board posts and added comments
-* Provide support to student with their writing and assist in organizing course logistics 
+Designed and facilitated weekly lesson plans for graduate students and university staff, supporting their engagement with course material on race, justice, and education policy.
+
+Responsibilities included moderating online discussions, providing individualized feedback on student writing, and coordinating course logistics with faculty. 

@@ -8,6 +8,6 @@ date: 2016-02-01
 location: "College Park, MD"
 ---
 
-* Planned and implemented writing lessons for university juniors and seniors 
-* Edited and graded papers throughout the semester 
-* Conferred with students during office hours to provide one-on-one editing 
+Developed and delivered writing instruction for upper-level undergraduate students, focusing on professional communication and argumentation skills.
+
+Provided detailed feedback on student work through grading and one-on-one consultations during office hours, helping students refine their writing and analytical abilities. 

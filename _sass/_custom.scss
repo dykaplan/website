@@ -40,3 +40,44 @@ nav.greedy-nav ul.hidden-links a:hover {
   background: rgba(0, 0, 0, 0.05);
   color: #0066cc !important;
 }
+
+/* Refined typography and content styling */
+.page__content {
+  font-size: 16px;
+  line-height: 1.75;
+  color: #444;
+}
+
+.page__content p {
+  margin-bottom: 1.5em;
+}
+
+/* Subtle, smaller link styling */
+.page__content a {
+  color: #0066cc;
+  text-decoration: underline;
+  font-size: 0.95em;
+  font-weight: 400;
+}
+
+.page__content a:hover {
+  color: #004499;
+}
+
+/* Make inline links less prominent */
+p a {
+  font-size: inherit;
+}
+
+/* Teaching and publication entries */
+.archive__item-title {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+.archive__item-excerpt {
+  font-size: 0.95em;
+  line-height: 1.6;
+  color: #666;
+}
