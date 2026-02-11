@@ -1,22 +1,39 @@
-nav.greedy-nav ul.hidden-links{
-  /* keep the list in normal flow */
-  position:static !important;
-
-  /* show it as a horizontal row */
-  display:flex    !important;
-  flex-wrap:nowrap;
-  gap:1.6rem;
-
-  /* defeat the JS fade/scale tricks */
-  opacity:1       !important;
-  transform:none  !important;
-
-  /* make sure it can grow */
-  width:auto      !important;
+/* Navigation bar styling */
+.masthead {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* optional: hide the hamburger icon */
-.greedy-nav__toggle{display:none!important;}
+.greedy-nav a,
+.greedy-nav button,
+.site-title {
+  color: #fff !important;
+}
 
-/* optional: darken link text so you can see it */
-.greedy-nav__link{color:#111!important;}
+.greedy-nav a:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Hamburger menu button */
+.greedy-nav__toggle {
+  color: #fff !important;
+  border-color: #fff !important;
+}
+
+.greedy-nav__toggle:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Hidden links dropdown */
+nav.greedy-nav ul.hidden-links {
+  background: #667eea;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+nav.greedy-nav ul.hidden-links a {
+  color: #fff !important;
+}
+
+nav.greedy-nav ul.hidden-links a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
