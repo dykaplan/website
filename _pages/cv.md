@@ -7,8 +7,9 @@ redirect_from:
   - /resume
 ---
 
-Full CV Available Here:
-<a href= "https://drive.google.com/file/d/1j-FDBipzuNPGGxxTFywek8hvU_pWVPM9/view?usp=share_link" target="_blank">Dean Kaplan CV</a> 
+<p style="font-size: 0.85em; color: #666;">
+<a href="https://drive.google.com/file/d/1j-FDBipzuNPGGxxTFywek8hvU_pWVPM9/view?usp=share_link" target="_blank" style="text-decoration: underline;">Download full CV</a>
+</p> 
 
 {% include base_path %}
 
@@ -41,20 +42,20 @@ Work experience
     <td style="text-align: left; border: none;width: 75%;"> 
     <ul> 
     <li>
-    Establish data pipelines with partners, run power analyses and randomize students for rapid-cycle RCT interventions
+    Established data pipelines, conducted power analyses, and randomized students for rapid-cycle RCT interventions
     </li>
      <li>
-    Analyze and estimate impact of field trials utilizing both Linear and Bayesian models
-    </li> 
-  <li>  
-  Pre-register trials prior to trials and author academic papers on analytic results 
-   </li> 
-   <li> 
-   Present findings at academic conferences and to school leaders throughout the year
-   </li> 
-   
-   <li> 
-   Train junior analysts in coding procedure and model specification 
+    Analyzed field trial outcomes using linear and Bayesian models
+    </li>
+  <li>
+  Pre-registered trials and authored academic papers on findings
+   </li>
+   <li>
+   Presented research at academic conferences and to education leaders
+   </li>
+
+   <li>
+   Trained junior analysts in coding procedures and model specification
    </li> 
    </ul> 
      </td> 
@@ -75,13 +76,13 @@ Work experience
   <td style="text-align: left; border: none;"> 
     <ul> 
     <li>
-     Collect and aggregate data across departments including Academic Affairs, Admissions, Alumni Relations, and HR
+     Collected and aggregated data across Academic Affairs, Admissions, Alumni Relations, and HR
     </li>
      <li>
-   Report on quantitative analysis of student, staff and faculty data, conduct qualitative interviews and meet with stakeholders across campus to build and strengthen institutional memory
-    </li> 
-  <li>  
-  Produce figures and tables for use in Office of Student Affairs materials
+   Conducted quantitative analyses and qualitative interviews with campus stakeholders
+    </li>
+  <li>
+  Produced figures and tables for Office of Student Affairs materials
    </li> 
    </ul> 
      </td> 
@@ -101,13 +102,13 @@ Work experience
   <td style="text-align: left; border: none;"> 
     <ul> 
     <li>
-Clean, merge, analyze and report quantitative data from RCT outcomes over 2,000 student surveys
+Analyzed RCT survey data from over 2,000 students
     </li>
      <li>
-Design low-load empathy strategies for over 150 middle and high school teachers and counselors across the country
-    </li> 
-  <li>  
-  Develop pre/post-test surveys and accompanying codebooks about implementation and data collection
+Designed empathy intervention strategies for 150+ teachers and counselors nationwide
+    </li>
+  <li>
+  Developed pre/post-test surveys and codebooks for implementation
    </li> 
    </ul> 
      </td> 
@@ -128,13 +129,13 @@ Design low-load empathy strategies for over 150 middle and high school teachers 
   <td style="text-align: left; border: none;"> 
     <ul> 
     <li>
-Ran study which included math assessment and facilitation of filmed parent-child interaction
+Conducted math assessments and facilitated filmed parent-child interactions
     </li>
      <li>
-Coded qualitative data from in-person filmed interactions (over 50 hours of video footage)
-    </li> 
-  <li>  
-  Accepted to present poster of findings at the National Research & Development Center on Cognition & Mathematics Instruction
+Coded qualitative data from 50+ hours of video footage
+    </li>
+  <li>
+  Presented findings at the National Research & Development Center on Cognition & Mathematics Instruction
    </li> 
    </ul> 
      </td> 
@@ -183,13 +184,13 @@ Analyzed and provided recommendations for changes in coding schemes
   <td style="text-align: left; border: none;"> 
     <ul> 
     <li>
-Ran lab experiment by checking-in participants, acquiring informed consent, and paying participants
+Conducted lab experiments, including participant check-in and consent procedures
     </li>
      <li>
-CITI Social and Behavioral Research Training completed
-    </li> 
-  <li>  
-  Answered study participants’ questions about research
+Completed CITI Social and Behavioral Research Training
+    </li>
+  <li>
+  Provided research support to study participants
    </li> 
    </ul> 
      </td> 
