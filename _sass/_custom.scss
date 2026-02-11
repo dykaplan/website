@@ -22,20 +22,9 @@
   }
 }
 
-/* Hamburger menu button - hide on desktop, show on mobile */
+/* Hide hamburger menu button completely */
 .greedy-nav__toggle {
-  color: #333 !important;
-  border-color: #ccc !important;
-}
-
-.greedy-nav__toggle:hover {
-  background: rgba(0, 0, 0, 0.05) !important;
-}
-
-@media (min-width: 768px) {
-  .greedy-nav__toggle {
-    display: none !important;
-  }
+  display: none !important;
 }
 
 /* Hidden links dropdown */
