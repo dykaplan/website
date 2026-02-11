@@ -15,7 +15,14 @@
   color: #0066cc !important;
 }
 
-/* Hamburger menu button */
+/* Hide duplicate site title link on desktop */
+@media (min-width: 768px) {
+  .site-title {
+    display: none !important;
+  }
+}
+
+/* Hamburger menu button - hide on desktop, show on mobile */
 .greedy-nav__toggle {
   color: #333 !important;
   border-color: #ccc !important;
@@ -23,6 +30,12 @@
 
 .greedy-nav__toggle:hover {
   background: rgba(0, 0, 0, 0.05) !important;
+}
+
+@media (min-width: 768px) {
+  .greedy-nav__toggle {
+    display: none !important;
+  }
 }
 
 /* Hidden links dropdown */
