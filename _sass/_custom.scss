@@ -1,8 +1,6 @@
-/* Navigation bar styling - subtle and professional */
+/* Navigation bar styling - seamless with page background */
 .masthead {
-  background: #f5f5f5;
-  border-bottom: 1px solid #e0e0e0;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  background: transparent;
 }
 
 .greedy-nav a,
@@ -22,14 +20,11 @@
   }
 }
 
-/* Hide hamburger menu button completely */
-.greedy-nav__toggle {
-  display: none !important;
-}
+/* Hamburger visibility is managed by greedy-nav.js via the .hidden class */
 
 /* Hidden links dropdown */
 nav.greedy-nav ul.hidden-links {
-  background: #f5f5f5;
+  background: #faf5e6;
   border: 1px solid #e0e0e0;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }

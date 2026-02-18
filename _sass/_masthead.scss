@@ -83,15 +83,7 @@
   font-weight: 700;
 }
 
-/* -------------------------------------------------------------------
-   Greedy-nav hamburger toggle: keep it on phones, hide on desktop
-   (set the breakpoint to whatever lines up with your design)
-------------------------------------------------------------------- */
-@media (min-width: 992px) {
-  .greedy-nav__toggle {   /* upstream class from greedy-nav.js */
-    display: none !important;
-  }
-}
+/* Hamburger visibility is managed by greedy-nav.js via the .hidden class */
 
 /* ==========================================================================
    END  _masthead.scss
