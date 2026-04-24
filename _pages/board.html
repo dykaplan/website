@@ -48,6 +48,7 @@ sitemap: true
   <script type="text/babel" src="{{ '/assets/board/board.jsx' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 
   <script type="text/babel">
+    {% raw %}
     function App() {
       return (
         <div style={{ position: 'fixed', inset: 0 }}>
@@ -56,6 +57,7 @@ sitemap: true
       );
     }
     ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+    {% endraw %}
   </script>
 </body>
 </html>
