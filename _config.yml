@@ -124,6 +124,9 @@ include:
   - .htaccess
   - _pages
   - files
+  - assets/board/engine.jsx
+  - assets/board/board.jsx
+  - assets/board/tiles.js
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
