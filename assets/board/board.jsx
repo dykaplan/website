@@ -181,10 +181,10 @@ function Monopoly3D({ theme: themeKey = 'ivy', modeDefault = 'drive', id = 'boar
     st.renderer = renderer;
 
     // ── Lighting ────────────────────────────────────────────────────────
-    const ambient = new THREE.AmbientLight(0xffffff, 0.35);
+    const ambient = new THREE.AmbientLight(0xffffff, 0.6);
     scene.add(ambient);
 
-    const key = new THREE.DirectionalLight(0xfff3d9, 1.1);
+    const key = new THREE.DirectionalLight(0xfff3d9, 1.25);
     key.position.set(20, 30, 15);
     key.castShadow = true;
     key.shadow.mapSize.set(1024, 1024);

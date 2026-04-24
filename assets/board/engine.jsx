@@ -13,38 +13,37 @@ const { useRef, useEffect, useState, useMemo, useCallback } = React;
 const THEMES = {
   ivy: {
     name: 'Ivy',
-    board:       '#fbf5e3',  // brighter cream
-    boardRim:    '#f0e4c0',
-    boardEdge:   '#4a3524',
-    ground:      '#2d5a41',  // lighter ivy green
-    groundAlt:   '#35684a',
-    tileFace:    '#fdf8e8',  // nearly white
+    board:       '#fefaec',
+    boardRim:    '#f8ecca',
+    boardEdge:   '#6b4d36',
+    ground:      '#3d7454',
+    groundAlt:   '#4a8a65',
+    tileFace:    '#fefbef',
     tileStroke:  '#1a1410',
-    accent:      '#8a3535',  // lighter maroon
-    accent2:     '#d4b255',  // brighter gold
-    ink:         '#1a1410',  // high contrast text
-    subInk:      '#5a4a32',
-    chanceTint:  '#d4b255',
-    chestTint:   '#8a3535',
-    corner:      '#f0e4c0',
-    // Bright, saturated property bands
+    accent:      '#b04040',
+    accent2:     '#eac35c',
+    ink:         '#1a1410',
+    subInk:      '#6c5a3d',
+    chanceTint:  '#eac35c',
+    chestTint:   '#b04040',
+    corner:      '#f8ecca',
     bands: {
-      brown:  '#8a5a32',
-      cyan:   '#5aa6c2',
-      pink:   '#d88a96',
-      orange: '#e89a45',
-      red:    '#c03838',
-      yellow: '#e8c340',
-      green:  '#4a8a55',
-      blue:   '#3d6aa8',
+      brown:  '#a87242',
+      cyan:   '#6fbad4',
+      pink:   '#eaa4ae',
+      orange: '#f4a854',
+      red:    '#d84747',
+      yellow: '#f2d050',
+      green:  '#5ea266',
+      blue:   '#4e80c0',
     },
     font: '"Playfair Display", "Cormorant Garamond", Georgia, serif',
     uiFont: '"Inter", system-ui, sans-serif',
     fog: 0.00,
-    sky: '#2d5a41',
-    skyBottom: '#1a3a28',
+    sky: '#3d7454',
+    skyBottom: '#285a3d',
     hatColor: '#141008',
-    hatBand:  '#8a3535',
+    hatBand:  '#b04040',
   },
   // "Medium" variant: darker night-library mood, spotlit board
   library: {
@@ -287,19 +286,6 @@ function centerCanvas(theme) {
   // rotated diamond-style center, like Monopoly
   ctx.fillStyle = theme.board;
   ctx.fillRect(0, 0, W, H);
-
-  // diagonal chance/chest areas
-  ctx.save();
-  ctx.translate(W/2, H/2);
-  ctx.rotate(-Math.PI/4);
-  ctx.fillStyle = theme.chanceTint;
-  ctx.globalAlpha = 0.15;
-  ctx.fillRect(-W*0.4, -80, W*0.8, 160);
-  ctx.rotate(Math.PI/2);
-  ctx.fillStyle = theme.chestTint;
-  ctx.fillRect(-W*0.4, -80, W*0.8, 160);
-  ctx.restore();
-  ctx.globalAlpha = 1;
 
   // title
   ctx.fillStyle = theme.accent;
