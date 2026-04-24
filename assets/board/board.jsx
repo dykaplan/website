@@ -404,6 +404,9 @@ function Monopoly3D({ theme: themeKey = 'ivy', modeDefault = 'drive', id = 'boar
         const k = ev.key.toLowerCase();
         if (['w','a','s','d','arrowup','arrowdown','arrowleft','arrowright'].includes(k)) {
           st.driveKeys.add(k); ev.preventDefault();
+        } else if (k === 'enter') {
+          ev.preventDefault();
+          setOpenTile(TILES[st.tokenTargetIdx].id);
         }
       } else if (m === 'walk') {
         const k = ev.key.toLowerCase();
